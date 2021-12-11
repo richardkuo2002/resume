@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/resume.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/resume_jq.js"></script>
+    <title>個人履歷</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <ul id="titles">
+                <li>
+                    <h1>Welcome to my Resume Website</h1>
+                </li>
+                <li>
+                    <h1>歡迎來到我的個人履歷網站</h1>
+                </li>
+            </ul>
+        </div>
+        <div class="p_information">
+            <h2>個人資訊 | Personal Information</h2>
+            <ul style="display: flex">
+                <li class="information">
+                    <ul>
+                        <li>Name : 郭睿桓</li>
+                        <li>School : 中原大學</li>
+                        <li>Department : 資管二甲</li>
+                        <li>Number : 10944149</li>
+                        <li class="icons">
+                            <a href="https://www.instagram.com/richard_kuo_0721/" target="_blank">
+                                <img class="icon" src="assets/photo/instagram_icon.png">
+                            </a>
+                            <a href="https://www.facebook.com/richardkuo0721" target="_blank">
+                                <img class="icon" src="assets/photo/facebook_icon.png">
+                            </a>
+                        </li>
+                        <li class="icons">
+                            <a href="https://twitter.com/KtwmKffSZBjXR4r" target="_blank">
+                                <img class="icon" src="assets/photo/twitter_icon.png">
+                            </a>
+                            <a href="mailto:richardkuo2002@gmail.com">
+                                <img class="icon" src="assets/photo/mail_icon.png">
+                            </a>
+                            <a href="https://howardtuan.github.io/cyim/index.html" target="_blank">
+                                <img class="icon" src="assets/photo/github_icon.png">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <img class="myself_photo" src="assets/photo/Personal_Photo.JPG">
+                </li>
+            </ul>
+        </div>
+        <div class="first_right">
+            <div class="motto">
+                <h2>座右銘 | Motto</h2>
+                <h4>"Death is like the wind
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    always by my side."
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    -Yasuo</h4>
+            </div>
+            <div class="experience">
+                <h2>經歷 | Experience</h2>
+                <div>精靈寶可夢Let's Go伊布 聯盟總冠軍</div>
+                <div>精靈寶可夢劍/盾 聯盟總冠軍</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h2>能力 | Skill</h2>
+            <ul>
+                <li>
+                    <div class="circle_wrap">
+                        <div class="circle_1">
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask full_1">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="inside_circle"> 前端 65% </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_wrap">
+                        <div class="circle_2">
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask full_2">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="inside_circle"> 後端 80% </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_wrap">
+                        <div class="circle_3">
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask full_3">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="inside_circle"> 文書 60% </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="programming">
+            <h2>編程能力 | Programming Skill</h2>
+            <p>C++</p>
+            <div class="container">
+                <div class="skills cpp">80%</div>
+            </div>
+
+            <p>C</p>
+            <div class="container">
+                <div class="skills c">75%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="container">
+                <div class="skills py">70%</div>
+            </div>
+
+            <p>Java</p>
+            <div class="container">
+                <div class="skills java">70%</div>
+            </div>
+
+            <p>HTML, CSS, JavaScript</p>
+            <div class="container">
+                <div class="skills web">65%</div>
+            </div>
+
+            <p>C#</p>
+            <div class="container">
+                <div class="skills csharp">50%</div>
+            </div>
+        </div>
+        <div class="work_title">
+            <ul>
+                <li id="active" onclick="color_1()">
+                    <h2>活動 ｜ Active</h2>
+                </li>
+                <li id="project_bottom" onclick="color_2()">
+                    <h2>作品 ｜ Project</h2>
+                </li>
+                <li id="club_bottom" onclick="color_3()">
+                    <h2>社團 ｜ Club</h2>
+                </li>
+            </ul>
+        </div>
+        <div class="work" id="work">
+            <div class="timeline" id="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <h2>2016<br>INFAS-js高中資訊學術聯展</h2>
+                        <img src="assets/photo/infas_2016.png">
+                        <div>
+                            在國三那年，因緣際會下被同學拉去參加Infas這項活動，當時的我對於資訊這塊完全不懂，也因此是抱持著看看就好，但正因為有過去看，才讓我開始覺得資訊這領域很有趣，也因此這活動是我最開始進入資訊的活動。
+                        </div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2>2017<br>INFAS-js高中資訊學術聯展</h2>
+                        <img src="assets/photo/infas_2017.png">
+                        <div>在高一時因為去年參加過的原因而繼續去參加這樣的活動，而因為當時有一些程式以及電機的能力，因此參加這活動更是擴大了我的想法以及視野，也讓我發現其實資訊可以做出超出我想像很多的事情。
+                        </div>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h2>2018<br>交大資訊築夢營</h2>
+                        <img src="assets/photo/nctu_2018.JPG">
+                        <div>升高二的暑假趁著有空的時候去參加各式大學的營隊，在交大資訊營中，除了可以交到各地的朋友外，也是我第一次用程式自己完成一個小專案。</div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2>2018<br>中央松數營</h2>
+                        <img src="assets/photo/ncu_2018.JPG">
+                        <div>在中央松數營中，學習到了很多數學相關的知識，而且藉由詢問學長姐也發現其實數學可以運用在資訊上面，而原本就喜愛數學和資訊的我，更是希望可以將自己所學的加以整合。</div>
+                    </div>
+                </div>
+                <div class="container   left">
+                    <div class="content">
+                        <h2>
+                            <ul class="continue">
+                                <li>T</li>
+                                <li>o</li>
+                                <li>&nbsp;</li>
+                                <li>B</li>
+                                <li>e</li>
+                                <li>&nbsp;</li>
+                                <li>C</li>
+                                <li>o</li>
+                                <li>n</li>
+                                <li>t</li>
+                                <li>i</li>
+                                <li>n</li>
+                                <li>u</li>
+                                <li>e</li>
+                            </ul>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="project" id="project">
+                <button class="accordion">企業概論 － 豆豆纖生</button>
+                <div class="panel">
+                    <a href="https://www.instagram.com/mr.beanbean_/" target="_blank">
+                        <img src="assets/photo/project_img_1.png">
+                    </a>
+                    <div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;在上這門課之前，一直以為學習是只能限制於教室、課本、老師，但經過老師的講解後，才知道學習並不是只有用課本才叫學習。在這次的過程中，有很多都是初體驗，像是第一次賣東西、做企劃書、做規劃行銷。而在這次的販售過程，我擔任的是資訊長，主要負責網頁的製作與架設，其中最難大概就是排版吧，因為我沒有藝術細胞，不太知道怎樣的排版、配色才會使消費者覺得舒適，而解決的方式就是不斷的去看網路上不同的網站，然後努力歸類出大概用哪些配色是消費者可以接受的，在這過程中也意外發現適當的加超連結可以使消費者使用網站更加便利，這應該也是另外學到一種技能吧。
+                    </div>
+                </div>
+                <button class="accordion">管理學－流浪動物之家</button>
+                <div class="panel">
+                    <img src="assets/photo/project_img_2.jpg">
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;這是在大一下的時候參加志工的活動，不喜歡小孩的我們選擇了流浪動物之家。
+                        車程大約要50分鐘，其實覺得騎過去是最累的時候。在那邊主要是幫忙清理犬舍，以及了解浪浪們現在的處境，並提倡領養等觀念，幾乎忙了一整天後才平安返家。雖然過程很辛苦，但這些都是為浪浪們做出的努力，其實這樣一切辛苦都得。
+                    </div>
+                </div>
+
+                <button class="accordion">多媒體程式設計－資管系官網</button>
+                <div class="panel">
+                    <a href="https://howardtuan.github.io/cyim/" target="_blank">
+                        <img src="assets/photo/project_img_3.png"></a>
+                    <div>
+                        相較於高職生我的程式能力沒有他們那麼好，而藉由這次的專案，可以讓我更加熟悉前端的開發，再加上以前學習的時候也不是專精在網頁上，而在做這專題的同時，可以學習到一些平時上課沒學到的技術、語法，對我而言這些東西可以讓整個網站顯得更加活潑，而做完時成就感也很大，也因此這次的專案對我而言學習的意義重大。
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="club" id="club">
+                <img src="assets/photo/hhdc_logo.jpg" class="club_img_1">
+                <div class="text_1">
+                    <h2>中原嘻哈研究社</h2>
+                    <div>
+                        我們熱愛跳舞，喜歡Beatbox口技與饒舌，享受街頭塗鴉藝術，雖然常常為了表演練習到半夜，但每個人的心裡卻一點也不覺得苦，因為這就是我們熱愛嘻哈文化的精神。<br>我們很跩很驕傲，因為我們是『中原嘻研社』。
+                    </div>
+                </div>
+                <div class="text_2">
+                    <h2>中原嘻研社期末小成<br>《事有嘻蹺》</h2>
+                    <div>
+                        這是我參加社團後的第一個表演，對於完全沒碰過舞蹈的我來說騎士一大挑戰，除了要練習自己不熟悉的舞步以及舞風，也還要去克服在台上表演的恐懼。而除了表演外，也要學習如何當一場表演的工作人員，雖然只是小小的一名人員，但每位人員對於一場表演我想都是十分重要的。
+                    </div>
+                </div>
+                <div class="club_img_2">
+                    <img src="assets/photo/club_1.jpg" class="club_img_2_1">
+                    <iframe width="350" height="350" src="https://www.youtube.com/embed/inn6Rl_vRU8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="club_img_3">
+                    <img src="assets/photo/club_2.jpg" class="club_img_3_1">
+                    <iframe width="350" height="350" src="https://www.youtube.com/embed/jUbKA4RqVLs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="text_3">
+                    <h2>中原嘻研期初迎新<br>《初嘻飯》</h2>
+                    <div>
+                        上大二以後雖然不是社團幹部，但也因為要招生而也有一場迎新表演，對於上次表演來說心態上其實沒有那麼緊張，但是責任更加重大，因為完全是由自己這一屆來指導整個活動的運作模式，也因此這次除了表演外，學到的東西我覺得是更加珍貴的。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2021 Jui-Huan, Kuo. All rights reserved.
+    </footer>
+    <script src="assets/js/resume_js.js"></script>
+</body>
+
+</html>
